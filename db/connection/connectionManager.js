@@ -10,7 +10,6 @@ exports.create = function (options, callback) {
 	var connection = connections[options.name] = mongoose.createConnection(options.connectionString);
 
 	connection.on('error', (err) => {
-		console.info(err);
 		callback(err);
 	});
 
