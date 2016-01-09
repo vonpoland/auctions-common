@@ -18,6 +18,7 @@ var Vehicle = {
     created: 'date',
     replacementValue: 'string',
     picturesSaved: {type: 'boolean', default: false},
+    wonPrice: 'number',
     votes: [{
         price: {type: 'number', required: true},
         status: {type: 'string', enum: ['registered', 'proposed', 'won'], default: 'registered', required: true},
