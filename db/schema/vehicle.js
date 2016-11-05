@@ -17,6 +17,7 @@ var Vehicle = {
     totalRepairCost: 'string',
     created: 'date',
     replacementValue: 'string',
+    expertise: 'string',
     picturesSaved: {type: 'boolean', default: false},
     wonPrice: 'number',
     votes: [{
