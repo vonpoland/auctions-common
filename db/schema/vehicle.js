@@ -6,6 +6,7 @@ var Vehicle = {
     model: 'string',
     vehicleType: 'number',
     location: 'number',
+    locationCode: 'string',
     body: 'string',
     engineType: 'number',
     engineCapacity: 'string',
